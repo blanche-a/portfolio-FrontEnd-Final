@@ -1,0 +1,69 @@
+[
+  {
+    "nombre": "Photoshop",
+		"categoria": "Duras",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "HTML",
+		"categoria": "Duras",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "CSS",
+		"categoria": "Duras",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "JavaScript",
+		"categoria": "Duras",
+    "porcentaje": 60
+  },
+  {
+    "nombre": "SASS",
+		"categoria": "Duras",
+    "porcentaje": 40
+  },
+  {
+    "nombre": "WordPress",
+		"categoria": "Duras",
+    "porcentaje": 90
+  },
+  {
+    "nombre": "Linux",
+		"categoria": "Duras",
+    "porcentaje": 75
+  },
+  {
+    "nombre": "Vim",
+		"categoria": "Duras",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "SSH",
+		"categoria": "Duras",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "Inglés",
+		"categoria": "Duras",
+    "porcentaje": 60
+  },
+  {
+    "nombre": "Creatividad",
+		"categoria": "Blandas",
+    "porcentaje": 75
+  },
+  {
+    "nombre": "Organización",
+		"categoria": "Blandas",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "Comunicación",
+		"categoria": "Blandas",
+    "porcentaje": 85
+  }
+]
+
+

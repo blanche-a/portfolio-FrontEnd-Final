@@ -1,0 +1,62 @@
+[
+  {
+    "lugar": "WES Gigantografías",
+    "titulo": "Diseñador Gráfico y 3D",
+    "remoto": false,
+    "inicio": "2005",
+    "fin":"2006",
+    "descripcion": "Creación y preparación de piezas de diseño gráfico para el ploteo. Modelado de stands en 3D como visualización previa del resultado final.",
+    "logo": "logo-wes.jpg",
+    "logoAlt": "Logo WES Public"
+  },
+  {
+    "lugar": "Host Manía Web",
+    "titulo": "Diseñador Web Front-End",
+    "remoto": true,
+    "inicio": "2006",
+    "fin":"2007",
+    "descripcion": "Diseño y maquetación de sitios web en tecnologías HTML, CSS y Adobe Flash.",
+    "logo": "logo-hostmania.png",
+    "logoAlt": "Logo Host Manía"
+  },
+  {
+    "lugar": "4r Soluciones",
+    "titulo": "Diseñador Web Front-End",
+    "remoto": false,
+    "inicio": "2007",
+    "fin":"2008",
+    "descripcion": "Diseño y maquetación de sitios web en tecnologías HTML, CSS, Adobe Flash y ActionScript.",
+    "logo": "logo-4r.png",
+    "logoAlt": "Logo 4r Soluciones"
+  },
+  {
+    "lugar": "Verven",
+    "titulo": "Diseñador Web Front-End (Freelance)",
+    "remoto": false,
+    "inicio": "2008",
+    "fin":"2023",
+    "descripcion": "Diseño y maquetación de sitios web en tecnologías HTML, CSS, y WordPress.",
+    "logo": "logo-verven.png",
+    "logoAlt": "Logo Verven"
+  },
+  {
+    "lugar": "RC&Media Comunicación",
+    "titulo": "Diseñador Web Front-End",
+    "remoto": true,
+    "inicio": "2013",
+    "fin":"2018",
+    "descripcion": "Diseño y maquetación de sitios web en tecnologías HTML, CSS, JavaScript y WordPress.",
+    "logo": "logo-rcymedia.png",
+    "logoAlt": "Logo RC&Media Comunicación"
+  },
+  {
+    "lugar": "Illustrio",
+    "titulo": "Diseñador Gráfico y Web",
+    "remoto": true,
+    "inicio": "2015",
+    "fin":"2016",
+    "descripcion": "Creación de vectores en formato SVG dinámicos.",
+    "logo": "logo-illustrio.png",
+    "logoAlt": "Logo Illustrio"
+  }
+]

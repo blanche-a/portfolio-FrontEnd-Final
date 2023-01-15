@@ -1,0 +1,13 @@
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand text-primary">
+      <img src="../assets/img/logo-AP.png" alt="" width="90" height="27" class="d-inline-block align-text-top">
+      #YoProgramo
+    </a>
+    <button class="btn btn-primary" type="submit" (click)="login()" *ngIf="!isLogged">Acceder</button>
+    <button class="btn btn-primary" type="submit" (click)="onLogOut()" *ngIf="isLogged">Cerrar</button>
+  </div>
+</nav>
+<div id="banner">
+  <img src="../assets/img/banner.jpg" class="img-fluid" alt="Banner">
+</div>

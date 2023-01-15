@@ -1,0 +1,23 @@
+<div class="container mb-5" id="habilidades">
+  <h3 class="text-primary bg-dark p-2 mb-5">Habilidades</h3>
+  <h4 class="mb-5">Hard Skills</h4>
+  <div class="row pb-5">
+    <div class="col-4 mb-4" *ngFor="let item of contenidoJSON1">
+      <h5>{{ item.nombre }}</h5>
+      <div class="progress" >
+        <div class="progress-bar bg-primary" role="progressbar" style="width: {{ item.porcentaje }}%" aria-valuemin="0" aria-valuemax="100" ></div>
+      </div>
+    </div>
+  </div>
+
+  <h4 class="mb-5">Soft Skills</h4>
+
+  <div class="row pb-5">
+    <div class="col-4 mb-4" *ngFor="let item of contenidoJSON2">
+      <h5>{{ item.nombre }}</h5>
+      <div class="progress" >
+        <div class="progress-bar bg-primary" role="progressbar" style="width: {{ item.porcentaje }}%" aria-valuemin="0" aria-valuemax="100" ></div>
+      </div>
+    </div>
+  </div>
+</div>

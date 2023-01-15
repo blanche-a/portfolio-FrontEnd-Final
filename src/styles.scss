@@ -1,0 +1,41 @@
+$primary: #98971a;
+$light: #222226;
+$gris: #928374;
+
+$navbar-padding-y: 2rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+p,ul{
+    font-weight:300;
+}
+ul {
+  list-style-type: none;
+  li {
+    text-indent:-1.1em;
+    &:before {
+        content: "- ";
+    }
+  }
+}
+#foto-perfil {
+	background-color: transparent;
+	border: none;
+	top:-102px;
+	img {
+		/*box-shadow:0px 0px 5px 8px rgba(0,0,0,.6);*/
+		max-height:200px;
+		max-width:200px;
+	}
+}
+.anio:after {
+  /*  content:"\A-------------------";*/
+  content: "\2192";
+  font-size: 1.6em;
+  position: relative;
+  top: -1px;
+  left: 5px;
+}

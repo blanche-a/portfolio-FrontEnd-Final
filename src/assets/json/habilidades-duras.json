@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Photoshop",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "HTML",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "CSS",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "JavaScript",
+    "porcentaje": 60
+  },
+  {
+    "nombre": "SASS",
+    "porcentaje": 40
+  },
+  {
+    "nombre": "WordPress",
+    "porcentaje": 90
+  },
+  {
+    "nombre": "Linux",
+    "porcentaje": 75
+  },
+  {
+    "nombre": "Vim",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "SSH",
+    "porcentaje": 85
+  },
+  {
+    "nombre": "Inglés",
+    "porcentaje": 60
+  }
+]

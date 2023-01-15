@@ -1,0 +1,21 @@
+<div class="container mb-5" id="experiencia-laboral">
+  <h3 class="text-primary bg-dark p-2 mb-5">Experiencia laboral</h3>
+  <div class="row" *ngFor="let item of contenidoJSON">
+    <div class="col-3 border-end border-1 border-secondary">
+      <p class="text-end text-secondary pe-1 anio">{{ item.inicio }} - {{ item.fin }}</p>
+    </div>
+    <div class="col-9 pb-5">
+      <div class="row">
+        <div class="col-2">
+          <img class="img-fluid rounded border border-secondary border-1" src="{{ rutaImg }}{{ item.logo }}" alt="{{ item.logoAlt }}">
+        </div>
+        <div class="col-10">
+          <h4>{{ item.lugar }}</h4>
+          <p><strong>{{ item.titulo }}</strong> <span class="badge bg-secondary" *ngIf="item.remoto">Remoto</span><br>
+          {{ item.descripcion }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container mb-5" id="educacion">
+  <h3 class="text-primary bg-dark p-2 mb-5">Educación</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Periodo</th>
+        <th scope="col"></th>
+        <th scope="col">Título</th>
+        <th scope="col">Institución</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let item of contenidoJSON">
+        <th scope="row">{{ item.inicio }} - {{ item.fin }}</th>
+        <td><img class="img-fluid rounded border border-secondary border-1" width="100" src="{{ rutaImg }}{{ item.logo }}" alt="{{ item.logoAlt }}"></td>
+        <td>{{ item.titulo }}</td>
+        <td>{{ item.lugar }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

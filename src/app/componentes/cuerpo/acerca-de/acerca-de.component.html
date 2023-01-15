@@ -1,0 +1,17 @@
+<div class="container mb-5" id="acerca-de">
+  <div class="row">
+    <div class="col-4">
+      <div class="card position-relative" id="foto-perfil">
+        <img src="{{ rutaImg }}{{ contenidoJSON[0].imagen }}" class="card-img-top rounded-circle border border-5 border-primary" alt="Foto de perfil de {{ contenidoJSON[0].nombre }} {{ contenidoJSON[0].apellido }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ contenidoJSON[0].nombre }} {{ contenidoJSON[0].apellido }}</h5>
+          <p class="card-text" ></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-8 pt-5">
+      <h3 class="text-primary bg-dark p-2 mb-4">Acerca de mí</h3>
+      <div [innerHTML]="contenidoJSON[0].descripcion"></div>
+    </div>
+  </div>
+</div>
