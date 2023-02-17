@@ -11,7 +11,8 @@ import { LoginUsuario } from '../modelo/login-usuario';
 })
 export class AuthService {
 
-  authURL:string = 'http://localhost:8080/auth/';
+  //authURL:string = 'http://localhost:8080/auth/';
+  authURL:string = 'https://hosting-angular-a556d.web.app/auth/';
 
   constructor(private httpClient:HttpClient) { }
 
