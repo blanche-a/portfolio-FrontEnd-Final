@@ -13,7 +13,8 @@ export class EducacionComponent implements OnInit {
   contenidoJSON:any = [];
   //jsonURL:string = '../../../assets/json/educacion.json';
   //jsonURL:string = 'http://localhost:8080/ver/educaciones';
-  jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/educaciones';
+  //jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/educaciones';
+  jsonURL:string = 'https://backend-app-i6ew.onrender.com/ver/educaciones';
 
   constructor(
     private componenteprincipal:AppComponent,

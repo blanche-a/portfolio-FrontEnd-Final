@@ -14,7 +14,8 @@ export class ExperienciaLaboralComponent implements OnInit {
   contenidoJSON:any = [];
   //jsonURL:string = '../../../assets/json/experiencia-laboral.json';
   //jsonURL:string = 'http://localhost:8080/ver/experiencias';
-  jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/experiencias';
+  //jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/experiencias';
+  jsonURL:string = 'https://backend-app-i6ew.onrender.com/ver/experiencias';
   isLogged = false;
 
 

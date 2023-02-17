@@ -12,7 +12,8 @@ export class AcercaDeComponent implements OnInit {
   rutaImg:string = '';
   contenidoJSON:any = [];
   //jsonURL:string = 'http://localhost:8080/ver/personas';
-  jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/personas';
+  //jsonURL:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/personas';
+  jsonURL:string = 'https://backend-app-i6ew.onrender.com/ver/personas';
   
   constructor(
     private componenteprincipal:AppComponent,

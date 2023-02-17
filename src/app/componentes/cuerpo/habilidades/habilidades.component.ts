@@ -12,10 +12,12 @@ export class HabilidadesComponent implements OnInit {
   contenidoJSON2:any = [];
   //jsonURL1:string = '../../../assets/json/habilidades-duras.json';
   //jsonURL1:string = 'http://localhost:8080/ver/habilidades-duras';
-  jsonURL1:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/habilidades-duras';
+  //jsonURL1:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/habilidades-duras';
+  jsonURL1:string = 'https://backend-app-i6ew.onrender.com/ver/habilidades-duras';
   //jsonURL2:string = '../../../assets/json/habilidades-blandas.json';
   //jsonURL2:string = 'http://localhost:8080/ver/habilidades-blandas';
-  jsonURL2:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/habilidades-blandas';
+  //jsonURL2:string = 'https://registered-jenn-blanche-a.koyeb.app/ver/habilidades-blandas';
+  jsonURL2:string = 'https://backend-app-i6ew.onrender.com/ver/habilidades-blandas';
 
   constructor(
     private _servicio:LeerJsonService
